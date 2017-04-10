@@ -1,0 +1,12 @@
+.table {
+    &.equal-columns {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+
+        th, td {
+            display: table-cell;
+            width: 100px;
+        }
+    }
+}

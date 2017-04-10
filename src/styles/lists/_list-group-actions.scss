@@ -1,0 +1,25 @@
+.list-group {
+
+    &.actions-hover {
+        .list-group-item {
+            .item-actions {
+                display: none;
+            }
+
+            &:hover {
+                .item-actions {
+                    display: inline;
+                }
+            }
+        }
+    }
+
+    .list-group-item {
+        &.active {
+            a {
+                color: #fff;
+            }
+        }
+    }
+
+}

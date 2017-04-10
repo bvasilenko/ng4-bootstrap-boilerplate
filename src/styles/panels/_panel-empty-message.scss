@@ -1,0 +1,8 @@
+.panel {
+    .empty-message {
+        @extend .text-center;
+        @extend .text-muted;
+        font-size: 85%;
+        line-height: 100px;
+    }
+}

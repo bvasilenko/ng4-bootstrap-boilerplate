@@ -1,0 +1,9 @@
+
+.table {
+    &.cell-ellipsis {
+        th, td {
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+}

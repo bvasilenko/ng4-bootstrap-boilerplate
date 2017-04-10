@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+
+// Bootstrap SASS
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import "styles/utils/border";
+@import "styles/utils/cursor";
+@import "styles/utils/text";
+@import "styles/lists/list-group-common";
+@import "styles/lists/list-group-actions";
+@import "styles/lists/list-group-checkable";
+@import "styles/lists/list-group-clickable";
+@import "styles/panels/panel-empty-message";
+@import "styles/panels/panel-loading-indicator";
+@import "styles/tables/table-cell-ellipsis";
+@import "styles/tables/table-equal-columns";
+@import "styles/components/components";
